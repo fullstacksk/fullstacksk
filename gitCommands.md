@@ -46,3 +46,16 @@ Add only a specific chunk of code in in a fle
 
 > select the chunk you wanna stage
 
+
+Commit the changes
+===================================
+`git commit -m "<message>"`
+
+Push the changes to remote first time
+===================================
+`git push -u <remote_name> <branch_name>`
+
+
+Push the changes
+===================================
+`git push`
