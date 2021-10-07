@@ -59,3 +59,8 @@ Push the changes to remote first time
 Push the changes
 ===================================
 `git push`
+
+Push a new branch 
+===================================
+`git push --set-upstream <remote_name> <branch_name>`
+

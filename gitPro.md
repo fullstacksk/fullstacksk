@@ -39,3 +39,79 @@ Body
      - point 2
 // After new line, git understands that body started
 ```
+
+Branching Startigies
+======================
+> ### A Written Convention
+
+## Agree on a Branching Worflow in Your Team
+
+1. Git allows you to create branches - but it doesn't tell
+you how to use them!
+
+2. You need a written best practice of how work is ideally
+structured in your team - to avoid mistakes & collisions.
+
+3. It highly depends on your team / team size, on your
+project, and how you handle releases.
+
+4. It helps to onboard new team members ("this is how
+we work here").
+
+Integrating Changes & Structuring releases
+==========================================
+
+1. ## Mainline Development
+    ### "Always Be Integrating"
+
+    - few branches
+    - relatively small commits
+    - high-quality testing & QA standards
+
+2. ## State, Release, and Feature Branches
+
+    Branches Enhance Structures & Workflows
+
+    - different types of branches...
+
+    - ...fulfill different types of jobs
+
+Long-Running Branches
+=====================
+
+
+- exist through the complete lifetime of the project
+
+- often, they mirror "stages" in your dev life cycle
+- common convention : No direct commits
+
+Short lived Branches
+====================
+- for nrw feature, bug fixes, refractoring, experiments
+
+- will be deleted after integration (merge/rebase)
+
+Two Exaples of Branching Startegies
+==================================
+ 1. GitHub Flow
+    - very simple,very lean : only one long running branch `main` + `feature branches`
+ 2. GitFlow
+    - more structure
+    - long running : `main` + `develop`
+    - short-lived : `features` + `hotfixes` + `releases`
+
+Pull Requests
+=============
+> A Pull Request invites reviewers to provide feedbck before merging
+
+> We can contribute to other repositories without permissions by making a pull rewuest
+
+    - fork the repository
+    - change the code
+    - make a pull request to integrate your  change
+
+
+## Communicating About and Reviewing Code
+
+**Note** : 
+> Without a Pull Request you would jump right  to merging your code.., It can be done only if changes are not complicted
