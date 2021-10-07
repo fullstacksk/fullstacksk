@@ -23,14 +23,26 @@ git push -u origin main
 ```
 
 `...Or else You can initialize this repository with code from a Subversion, Mercurial, or TFS project.`
+See the changes
+===================================
+`git status`
 
-Add particular file to staged
-===============================
+See changes within a file
+===================================
+`git diff <filePath>`
+
+Add particular file to staged area
+===================================
 `git add <filePath>`
 
-Add all files to staged
-========================
+Add all files to staged area
+=============================
 
 `git add .`
 
+Add only a specific chunk of code in in a fle
+=============================================
+`git add -p <filepath>`
+
+> select the chunk you wanna stage
 
