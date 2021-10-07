@@ -64,3 +64,37 @@ Push a new branch
 ===================================
 `git push --set-upstream <remote_name> <branch_name>`
 
+Merge a branch
+===================================
+`git merge <branch_to_be_merged>`
+
+
+UNDO Merging
+===================================
+`git merge --abort`
+
+> It is helpful when we got complex conflicts.
+
+
+Rebase a branch
+===================================
+`git rebase <branch_to_be_merged>`
+
+
+UNDO Rebasing
+===================================
+`git rebase --abort`
+
+> It is helpful when we got complex conflicts.
+
+Merge Vs Rebase
+================
+    - Rebase preserves original commit structure while merging we have to do merge commit
+    - Rebase rewrites commit history
+
+Warning Notice
+===============
+
+1. `Do NOT use Rebase on commits that you've already pushed/shared on a remote repository!`
+
+2. `Instead, use it for cleaning up your local commit history before merging it into a shared team branch.`
