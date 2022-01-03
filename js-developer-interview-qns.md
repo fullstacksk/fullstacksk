@@ -24,3 +24,4 @@
 24. What does connect method do in redux?
 25. Explain hooks available in redux?
 26. What is useSelector and shallowEqual?
+27. What is freeze, seal and defineProperty in javascript?
