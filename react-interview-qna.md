@@ -43,3 +43,14 @@
 43. What is React Fiber?
 44. What are Hooks in React?
 45. How does list work in react?
+46. Explain code splitting / lazy loading / dynamic import in react?
+47. What is Suspense in react?
+48. Why can't you update state directly without setState?
+49. Why do we use Fragment?
+50. In how many ways you can conditionally render in recat?
+51. What is redux middleware?
+52. What are the alternative for reacts?
+53. What is redux middleware?
+54. What arethe differences betwen redux-saga and redux-thunk?
+55. How to optimize a react app?
+56. What are the differences between createRef and useRef?
