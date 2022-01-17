@@ -25,6 +25,7 @@
 25. What are stateful components in react?
 26. What are refs in react?
 27. What are the controlled components in react?
+  - form data is handled by a React component
 28. Why is router required in react?
 29. What are the components of redux in react?
 30. What are the advantages of using redux?
@@ -54,3 +55,15 @@
 54. What arethe differences betwen redux-saga and redux-thunk?
 55. How to optimize a react app?
 56. What are the differences between createRef and useRef?
+57. What is Profiler?
+  -  Measures the cost of rendering
+  ```
+        <Profiler id="PreviewPane" onRender={callback}>
+          <PreviewPane {...props} />
+        </Profiler>
+   ```
+58. What is render prop?
+  - a render prop is a function prop that a component uses to know what to render.
+59. What is uncontrolled component?
+  - form data is handled by the DOM itself
+60. 
